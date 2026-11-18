@@ -52,6 +52,11 @@ button {
   cursor: pointer;
 }
 
+#clear-done-button {
+  margin-top: 8px;
+  width: 100%;
+}
+
 button:hover {
   background: #4338ca;
 }
