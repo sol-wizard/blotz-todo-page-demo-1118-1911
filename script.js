@@ -13,3 +13,9 @@ addButton.addEventListener("click", () => {
   input.value = "";
   input.focus();
 });
+
+list.addEventListener("click", (event) => {
+  if (event.target.tagName === "LI") {
+    event.target.classList.toggle("done");
+  }
+});
